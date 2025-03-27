@@ -6,6 +6,7 @@ TagManager:
   tags:
   - kill
   - collectable
+  - Coins
   layers:
   - Default
   - TransparentFX
