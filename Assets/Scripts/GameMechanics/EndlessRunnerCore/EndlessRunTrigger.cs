@@ -15,10 +15,13 @@ public class EndlessRunTrigger : MonoBehaviour
         _instance = EndlessRunner.Instance;
     }
 
-    private void OnTriggerEnter(Collider other)
+
+
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (Tags.Contains(other.tag) || Tags.Length == 0)
         {
+            { Debug.Log ("Hello World");};
             _instance.InstantiateRoad();
         }
     }
