@@ -22,7 +22,7 @@ public class EndlessMove : MonoBehaviour
     {
         if (_instance.Playing == true)
         {
-            transform.position += Vector3.back * speed;
+            transform.position += Vector3.up * speed;
         }
     }
 }
