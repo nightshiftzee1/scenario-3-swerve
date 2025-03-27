@@ -759,34 +759,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 192039011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1631b9ee39789334898523980439c64f, type: 3}
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaskTrigger:
-    serializedVersion: 2
-    m_Bits: 0
-  Tags: []
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &233801398
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233801399}
+  - component: {fileID: 233801400}
   m_Layer: 0
   m_Name: DeathBarriers
   m_TagString: Untagged
@@ -820,6 +796,18 @@ Transform:
   - {fileID: 531265181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &233801400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233801398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &234225910
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,11 +841,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1910609386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -953.6398, y: -536.01984}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -84.25, y: -22.629944}
+  m_SizeDelta: {x: 10862.82, y: 2846.66}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &234225912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,7 +878,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: '0
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -917,8 +907,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -953,7 +943,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 11530.95, y: 4201.362, z: 12115.07, w: 4804.814}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2264,34 +2254,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 715502177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1631b9ee39789334898523980439c64f, type: 3}
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaskTrigger:
-    serializedVersion: 2
-    m_Bits: 0
-  Tags: []
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &718151474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,7 +2317,7 @@ MonoBehaviour:
   onGameOver:
     m_PersistentCalls:
       m_Calls: []
-  spawnPos: {x: 0, y: 0, z: 0}
+  spawnPos: {x: -24.27, y: -7.34, z: 0}
 --- !u!114 &718151477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2477,34 +2442,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 753804436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1631b9ee39789334898523980439c64f, type: 3}
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaskTrigger:
-    serializedVersion: 2
-    m_Bits: 0
-  Tags: []
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &825781142
 GameObject:
   m_ObjectHideFlags: 0
@@ -5621,7 +5561,19 @@ MonoBehaviour:
   clampLowerScore: 1
   onScoreGain:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928813299}
+        m_TargetAssemblyTypeName: UnityEngine.Collider2D, UnityEngine
+        m_MethodName: set_isTrigger
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onScoreLoss:
     m_PersistentCalls:
       m_Calls: []
@@ -6299,34 +6251,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1904000023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1631b9ee39789334898523980439c64f, type: 3}
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaskTrigger:
-    serializedVersion: 2
-    m_Bits: 0
-  Tags: []
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1910609382
 GameObject:
   m_ObjectHideFlags: 0
@@ -6395,8 +6322,8 @@ Canvas:
   m_GameObject: {fileID: 1910609382}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6520,34 +6447,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2041760219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1631b9ee39789334898523980439c64f, type: 3}
+  m_Script: {fileID: 11500000, guid: a138e81fb8689e041b838f90a631e96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaskTrigger:
-    serializedVersion: 2
-    m_Bits: 0
-  Tags: []
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &2045044754
 GameObject:
   m_ObjectHideFlags: 0
