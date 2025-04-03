@@ -7,6 +7,8 @@ TagManager:
   - kill
   - collectable
   - Coins
+  - Trigger
+  - Platform
   layers:
   - Default
   - TransparentFX
