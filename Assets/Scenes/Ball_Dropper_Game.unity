@@ -629,7 +629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38925702341f1f940a404635db5ac8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  Tags: []
+  scrollSpeed: 0
 --- !u!1001 &95589052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -790,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5788582041337444561, guid: 463b8dac56a24a547b3f97c6c72bf513, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.09
+      value: 6.73
       objectReference: {fileID: 0}
     - target: {fileID: 5788582041337444561, guid: 463b8dac56a24a547b3f97c6c72bf513, type: 3}
       propertyPath: m_LocalPosition.z
@@ -929,7 +930,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38925702341f1f940a404635db5ac8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  Tags: []
+  scrollSpeed: 0
 --- !u!1 &318458942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,7 +1505,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38925702341f1f940a404635db5ac8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  Tags:
+  - score
+  scrollSpeed: 0
 --- !u!4 &418833691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 599106965748814184, guid: b62d9769260871c4c8678392ba2697d1, type: 3}
@@ -2061,8 +2065,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 718151475}
-  - component: {fileID: 718151478}
-  - component: {fileID: 718151477}
   - component: {fileID: 718151476}
   - component: {fileID: 718151479}
   m_Layer: 0
@@ -2108,69 +2110,8 @@ MonoBehaviour:
   Playing: 1
   OnRoadSpawn:
     m_PersistentCalls:
-      m_Calls: []
-  onGameOver:
-    m_PersistentCalls:
-      m_Calls: []
-  spawnPos: {x: 1, y: -20, z: 5}
---- !u!114 &718151477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718151474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8cc35ba43c518f4f994f4eb4b6d1ec4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFunctionActive: 1
-  onSwipeDirection:
-    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 718151478}
-        m_TargetAssemblyTypeName: GetNESWDirection, Assembly-CSharp
-        m_MethodName: FindDirectionNormal
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onSwipeDirectionNormalized:
-    m_PersistentCalls:
-      m_Calls: []
-  onSwipeMagnitude:
-    m_PersistentCalls:
-      m_Calls: []
-  onSwipe:
-    m_PersistentCalls:
-      m_Calls: []
-  onSwipeStart:
-    m_PersistentCalls:
-      m_Calls: []
-  minimumSwipeDistance: 400
-  maximumSwipeTime: 1
---- !u!114 &718151478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718151474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f863e4cf0684bb448e416ccaca910a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnFoundDirection:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783350184}
+      - m_Target: {fileID: 1252625367}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 0
@@ -2182,6 +2123,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onGameOver:
+    m_PersistentCalls:
+      m_Calls: []
+  spawnPos: {x: 1, y: -20, z: 5}
 --- !u!114 &718151479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4598,7 +4543,7 @@ GameObject:
   - component: {fileID: 1670758378}
   m_Layer: 5
   m_Name: Score
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4780,7 +4725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38925702341f1f940a404635db5ac8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  Tags: []
+  scrollSpeed: 0
 --- !u!1 &1783350184
 GameObject:
   m_ObjectHideFlags: 0
@@ -5286,7 +5232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38925702341f1f940a404635db5ac8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 2
+  Tags: []
+  scrollSpeed: 0
 --- !u!1 &2041760219
 GameObject:
   m_ObjectHideFlags: 0
