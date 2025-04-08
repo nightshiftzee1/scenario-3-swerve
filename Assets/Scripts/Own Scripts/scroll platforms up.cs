@@ -13,3 +13,5 @@ public class PlatformScroller : MonoBehaviour
         transform.position += Vector3.up * scrollSpeed * Time.deltaTime;
 	}
 }
+//change under 50 when goes over 50 
+//if scrollspeed < 50 scrollSpeed == 50 
