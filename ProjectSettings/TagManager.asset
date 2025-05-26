@@ -10,6 +10,7 @@ TagManager:
   - Trigger
   - Platform
   - score
+  - UpdatedScore
   layers:
   - Default
   - TransparentFX
