@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 5d3881fcd9628ed47a67e002b9c35f69
+  - enabled: 1
     path: Assets/Scenes/Ball_Dropper_Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/BarrierDeath.unity
     guid: e41443d8fa63cec48bfbf8b2fc2026f1
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 5d3881fcd9628ed47a67e002b9c35f69
   - enabled: 1
     path: Assets/Scenes/PinkDeath.unity
     guid: 6b43916bf79228d499936422ebc2104a
